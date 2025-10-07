@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nestchem Lanka Holdings (Pvt) LTD — Detergents & Home Care</title>
+  <meta name="description" content="Sri Lankan detergent manufacturer since 1999. NEO Liquid & Powder Detergents. Eco-friendly, high quality, made in Hanwella. Open Mon–Sat 8:00 AM–5:00 PM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html,body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";}
+    .wrap{max-width:72rem;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem}
+    @media(min-width:640px){.wrap{padding-left:1.5rem;padding-right:1.5rem}}
+    @media(min-width:1024px){.wrap{padding-left:2rem;padding-right:2rem}}
+    .bg-bubbles::before,
+    .bg-bubbles::after{
+      content:"";position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen;
+      background:
+        radial-gradient(22rem 22rem at 85% 20%, rgba(14,165,233,.15), transparent 60%),
+        radial-gradient(16rem 16rem at 10% 75%, rgba(34,197,94,.15), transparent 60%),
+        radial-gradient(12rem 12rem at 30% 20%, rgba(14,165,233,.08), transparent 60%);
+      animation:float 18s ease-in-out infinite alternate;
+    }
+    .bg-bubbles::after{filter:blur(10px);opacity:.7}
+    @keyframes float{to{transform:translateY(-10px)}}
+  </style>
+
+  <!-- LocalBusiness schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Nestchem Lanka Holdings (Pvt) LTD",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"No. 188, Malwana Road, Samanabedda, Thiththapaththara",
+      "addressLocality":"Hanwella",
+      "addressCountry":"LK"
+    },
+    "telephone":"+94 112406825",
+    "email":"info.nestchem@gmail.com",
+    "openingHours":"Mo-Sa 08:00-17:00",
+    "sameAs":["https://www.instagram.com/nestchemlanka","https://www.facebook.com/nestchemlanka"]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Top Bar -->
+  <div class="bg-slate-900 text-white text-xs sm:text-sm">
+    <div class="wrap flex flex-col sm:flex-row items-center justify-between gap-2 py-2">
+      <div class="flex items-center gap-3">
+        <span>Mon–Sat 8:00 AM–5:00 PM</span>
+        <span class="hidden sm:inline">|</span>
+        <a href="mailto:info.nestchem@gmail.com" class="underline underline-offset-2 hover:text-sky-300">info.nestchem@gmail.com</a>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <a class="px-2 py-1 rounded bg-emerald-700 hover:bg-emerald-800" href="https://wa.me/94719144144" target="_blank" rel="noopener">WhatsApp: 071 914 4144</a>
+        <a class="px-2 py-1 rounded bg-slate-700 hover:bg-slate-800" href="https://wa.me/94706565307" target="_blank" rel="noopener">070 656 5307</a>
+        <a class="px-2 py-1 rounded bg-slate-700 hover:bg-slate-800" href="https://wa.me/94714565307" target="_blank" rel="noopener">071 456 5307</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="wrap h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3 group">
+
+        <div>
+          <div class="font-extrabold tracking-tight leading-none">Nestchem Lanka</div>
+          <div class="text-xs text-slate-500 -mt-0.5">Since 1999</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium">
+        <a class="hover:text-sky-600" href="#about">About</a>
+        <a class="hover:text-sky-600" href="#products">Products</a>
+        <a class="hover:text-sky-600" href="#sustainability">Eco</a>
+        <a class="hover:text-sky-600" href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-sm">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v14H4zM8 9h8" stroke="currentColor" stroke-width="1.5"/></svg>
+        Get in touch
+      </a>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Open menu">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+    </div>
+    <div id="mobileNav" class="md:hidden hidden border-t border-slate-200">
+      <div class="wrap py-3 grid gap-2 text-sm">
+        <a class="py-2 hover:text-sky-600" href="#about">About</a>
+        <a class="py-2 hover:text-sky-600" href="#products">Products</a>
+        <a class="py-2 hover:text-sky-600" href="#sustainability">Eco</a>
+        <a class="py-2 hover:text-sky-600" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative isolate overflow-hidden bg-gradient-to-br from-sky-50 to-emerald-50">
+    <div class="bg-bubbles absolute inset-0"></div>
+    <div class="wrap grid md:grid-cols-2 gap-12 items-center pt-14 md:pt-20 pb-16 md:pb-24">
+      <div>
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 ring-1 ring-emerald-600/20 text-xs font-semibold">
+          Eco-friendly manufacturing • Go Green
+        </span>
+        <h1 class="mt-4 font-extrabold text-3xl sm:text-4xl md:text-5xl leading-tight">
+          High-quality detergents made in Sri Lanka — since <span class="text-sky-600">1999</span>
+        </h1>
+        <p class="mt-4 text-slate-600 text-base md:text-lg">
+          We manufacture <span class="font-semibold">NEO Liquid &amp; Powder Detergents</span> and a growing range of home-care solutions, proudly produced in Hanwella under strict eco standards.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/94719144144" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700 shadow-sm">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M20 11.5A8.5 8.5 0 1 1 11.5 3a8.5 8.5 0 0 1 8.5 8.5Zm-4.63 4.18c.26.14.56.24.88.24.23 0 .47-.05.7-.16.16-.07.3-.19.39-.35l.06-.1c.12-.23.19-.49.05-.74-.22-.39-.78-.62-1.2-.79-.2-.08-.4-.16-.55-.24-.34-.18-.56-.12-.77.12l-.12.14c-.12.14-.26.23-.41.24-.13 0-.28-.06-.43-.12-.75-.32-1.47-.83-2.1-1.45-.61-.62-1.12-1.34-1.44-2.09-.07-.16-.12-.3-.12-.43.01-.15.1-.29.24-.41l.14-.12c.25-.21.3-.43.12-.77-.08-.15-.16-.34-.24-.55-.17-.42-.4-.98-.79-1.2-.25-.14-.51-.07-.74.05l-.1.06a1.1 1.1 0 0 0-.35.39c-.32.62-.34 1.38-.06 2.18.32.93.95 1.9 1.84 2.8.88.89 1.85 1.52 2.78 1.84.8.28 1.56.26 2.18-.06Z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a href="#products" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white ring-1 ring-slate-200 hover:ring-sky-300 hover:text-sky-700 shadow-sm">
+            Explore Products
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none"><path d="M6 12h12M12 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+        <div class="mt-6 flex items-center gap-6 text-sm text-slate-600">
+          <span class="inline-flex items-center gap-2"><span class="w-2.5 h-2.5 bg-emerald-500 rounded-full"></span> ISO-minded quality</span>
+          <span class="inline-flex items-center gap-2"><span class="w-2.5 h-2.5 bg-sky-500 rounded-full"></span> Sri Lankan owned</span>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="flex justify-center items-center">
+        <img src="logo.png" alt="Nestchem Lanka logo" class="w-32 h-32 object-contain rounded-xl shadow-md border border-slate-200 bg-white" />
+        </div>
+      </div>
+    </div>          
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24 bg-white">
+    <div class="wrap grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">About Nestchem Lanka</h2>
+        <p class="mt-4 text-slate-600 leading-relaxed">
+          Founded in <span class="font-semibold">1998</span> and serving Sri Lanka since <span class="font-semibold">1999</span>, NESTCHEM LANKA HOLDINGS (PVT) LTD began with
+          <span class="font-semibold">NEO Liquid &amp; Powder Detergents</span>. We excel in high-quality production while preserving the green norms of Sri Lanka under a clear <span class="font-semibold">Go Green policy</span>.
+        </p>
+        <dl class="mt-6 grid grid-cols-2 gap-4 text-sm">
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+            <dt class="text-slate-500">Headquarters</dt>
+            <dd class="font-semibold">Hanwella, Sri Lanka</dd>
+          </div>
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+            <dt class="text-slate-500">Focus</dt>
+            <dd class="font-semibold">Detergents & Home Care</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+        <h3 class="font-bold">Why customers choose us</h3>
+        <ul class="mt-3 space-y-2 text-slate-600">
+          <li class="flex gap-2"><span class="mt-1 w-2.5 h-2.5 bg-emerald-500 rounded-full"></span> Eco-friendly ingredients & processes</li>
+          <li class="flex gap-2"><span class="mt-1 w-2.5 h-2.5 bg-sky-500 rounded-full"></span> Consistent quality & performance</li>
+          <li class="flex gap-2"><span class="mt-1 w-2.5 h-2.5 bg-amber-500 rounded-full"></span> Responsive Sri Lankan customer support</li>
+          <li class="flex gap-2"><span class="mt-1 w-2.5 h-2.5 bg-violet-500 rounded-full"></span> Competitive pricing for households & B2B</li>
+        </ul>
+        <div class="mt-6 grid sm:grid-cols-2 gap-3">
+          <a href="#contact" class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-sm">
+            Contact Sales
+          </a>
+          <a href="https://www.facebook.com/nestchemlanka" target="_blank" class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-white ring-1 ring-slate-200 hover:ring-sky-300">
+            Facebook Page
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="wrap">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Featured Products</h2>
+        <span class="text-sm text-slate-500">More SKUs available on request</span>
+      </div>
+
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="group p-5 rounded-2xl border border-slate-200 bg-white hover:shadow-lg transition">
+          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-sky-100 to-sky-50 grid place-content-center">
+            <div class="w-24 h-32 rounded-lg bg-gradient-to-b from-sky-500 to-sky-700 shadow-md"></div>
+          </div>
+          <h3 class="mt-4 font-semibold">NEO Liquid Detergent</h3>
+          <p class="mt-1 text-sm text-slate-600">Powerful clean, color-safe, machine & hand wash friendly.</p>
+        </article>
+        <article class="group p-5 rounded-2xl border border-slate-200 bg-white hover:shadow-lg transition">
+          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-emerald-100 to-emerald-50 grid place-content-center">
+            <div class="w-24 h-32 rounded-lg bg-gradient-to-b from-emerald-500 to-emerald-700 shadow-md"></div>
+          </div>
+          <h3 class="mt-4 font-semibold">NEO Powder Detergent</h3>
+          <p class="mt-1 text-sm text-slate-600">Deep stain removal with fresh fragrance; gentle on fabrics.</p>
+        </article>
+        <article class="group p-5 rounded-2xl border border-slate-200 bg-white hover:shadow-lg transition">
+          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-cyan-100 to-emerald-50 grid place-content-center">
+            <div class="w-24 h-32 rounded-lg bg-gradient-to-b from-cyan-500 to-emerald-500 shadow-md"></div>
+          </div>
+          <h3 class="mt-4 font-semibold">Home-Care Range</h3>
+          <p class="mt-1 text-sm text-slate-600">Surface cleaners, dishwash, and institutional packs (customizable).</p>
+        </article>
+      </div>
+
+      <div class="mt-8 p-5 rounded-2xl bg-emerald-500/10 border border-emerald-600/20">
+        <p class="text-sm text-emerald-900">
+          Looking for bulk or white-label manufacturing? <a href="#contact" class="font-semibold underline underline-offset-2 decoration-emerald-700">Talk to our team</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sustainability -->
+  <section id="sustainability" class="py-16 md:py-24 bg-white">
+    <div class="wrap grid lg:grid-cols-3 gap-10">
+      <div class="lg:col-span-1">
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Sustainability</h2>
+        <p class="mt-3 text-slate-600">We manufacture under eco-friendly practices and a Go Green policy—minimizing waste, optimizing water use, and prioritizing safer chemistries.</p>
+      </div>
+      <div class="lg:col-span-2 grid sm:grid-cols-3 gap-6">
+        <div class="p-5 rounded-2xl border border-slate-200 bg-slate-50">
+          <div class="text-3xl">🌿</div>
+          <h3 class="mt-2 font-semibold">Eco-minded inputs</h3>
+          <p class="text-sm text-slate-600">Prioritizing biodegradable and efficient formulations.</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 bg-slate-50">
+          <div class="text-3xl">💧</div>
+          <h3 class="mt-2 font-semibold">Water stewardship</h3>
+          <p class="text-sm text-slate-600">Processes tuned for reduced water footprint.</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-200 bg-slate-50">
+          <div class="text-3xl">♻️</div>
+          <h3 class="mt-2 font-semibold">Responsible packaging</h3>
+          <p class="text-sm text-slate-600">Encouraging bulk & refill options for partners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social proof -->
+  <section class="py-14 bg-slate-50 border-y border-slate-200">
+    <div class="wrap">
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+        <div class="p-6 rounded-2xl bg-white border border-slate-200">
+          <p class="text-3xl font-extrabold text-sky-600">1999</p>
+          <p class="text-sm text-slate-600 mt-1">In service since</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white border border-slate-200">
+          <p class="text-3xl font-extrabold text-emerald-600">Eco</p>
+          <p class="text-sm text-slate-600 mt-1">Go-Green policy</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white border border-slate-200">
+          <p class="text-3xl font-extrabold text-amber-600">B2B</p>
+          <p class="text-sm text-slate-600 mt-1">Institutional supply</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-white">
+    <div class="wrap grid lg:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Contact us</h2>
+        <div class="mt-6 grid gap-3 text-sm">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">Phone</div>
+            <div class="font-semibold">+94 11 240 6825</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">WhatsApp</div>
+            <div class="font-semibold flex flex-col">
+              <a class="hover:text-sky-600" href="https://wa.me/94719144144" target="_blank">+94 71 914 4144</a>
+              <a class="hover:text-sky-600" href="https://wa.me/94706565307" target="_blank">+94 70 656 5307</a>
+              <a class="hover:text-sky-600" href="https://wa.me/94714565307" target="_blank">+94 71 456 5307</a>
+            </div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">Email</div>
+            <div class="font-semibold flex flex-col">
+              <a class="hover:text-sky-600" href="mailto:info.nestchem@gmail.com">info.nestchem@gmail.com</a>
+              <a class="hover:text-sky-600" href="mailto:thamali.nestchem@gmail.com">thamali.nestchem@gmail.com</a>
+            </div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">Address</div>
+            <div class="font-semibold">No. 188, Malwana Road, Samanabedda, Thiththapaththara, Hanwella.</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">Open hours</div>
+            <div class="font-semibold">Monday to Saturday — 8:00 AM to 5:00 PM</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-slate-500">Social</div>
+            <div class="font-semibold flex flex-wrap gap-3">
+              <a class="inline-flex items-center gap-2 hover:text-sky-600" href="https://www.instagram.com/nestchemlanka" target="_blank" rel="noopener">
+                <span class="w-2.5 h-2.5 bg-gradient-to-br from-fuchsia-500 to-amber-400 rounded-full"></span> Instagram
+              </a>
+              <a class="inline-flex items-center gap-2 hover:text-sky-600" href="https://www.facebook.com/nestchemlanka" target="_blank" rel="noopener">
+                <span class="w-2.5 h-2.5 bg-sky-600 rounded-full"></span> Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Static contact form -->
+      <div class="p-6 rounded-2xl border border-slate-200 bg-slate-50">
+        <h3 class="font-bold">Send us a quick message</h3>
+        <p class="text-sm text-slate-500">This is a static demo form. Connect it to your backend or Google Forms.</p>
+        <form class="mt-4 grid gap-4" onsubmit="event.preventDefault(); alert('Thanks! We will get back to you.');">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <input class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400" placeholder="Full name" required />
+            <input class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400" placeholder="Email or Phone" required />
+          </div>
+          <textarea rows="5" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400" placeholder="How can we help?"></textarea>
+          <button class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-sm" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-200">
+    <div class="wrap py-10 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-extrabold">Nestchem Lanka</div>
+        <p class="mt-2 text-sm text-slate-400">Detergents & Home-Care • Made in Sri Lanka</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Find us</h4>
+        <p class="mt-2 text-sm text-slate-300">No. 188, Malwana Road, Samanabedda, Thiththapaththara, Hanwella.</p>
+        <p class="text-sm text-slate-300 mt-1">Mon–Sat 8:00 AM–5:00 PM</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Contact</h4>
+        <p class="mt-2 text-sm text-slate-300">+94 11 240 6825</p>
+        <p class="text-sm text-slate-300">info.nestchem@gmail.com</p>
+        <div class="mt-3 flex gap-3">
+          <a class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm" href="https://wa.me/94719144144" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-sm" href="https://www.facebook.com/nestchemlanka" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="wrap py-4 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-2">
+        <span>© <span id="y"></span> Nestchem Lanka Holdings (Pvt) LTD</span>
+        <span>Designed with Tailwind CSS</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // footer year + mobile menu
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const btn = document.getElementById('menuBtn');
+    const mobile = document.getElementById('mobileNav');
+    btn?.addEventListener('click', () => mobile.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
